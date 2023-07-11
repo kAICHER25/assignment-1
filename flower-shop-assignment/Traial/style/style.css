@@ -183,3 +183,10 @@ justify-content: center;
     border-top-right-radius: 150px;
     padding: 10px;
 }
+.fig-align{
+    text-align: center;
+    text-decoration-line: underline;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
