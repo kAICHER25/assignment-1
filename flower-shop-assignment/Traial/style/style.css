@@ -129,7 +129,7 @@ justify-content: center;
 .section-title{
     color: #272727;
     text-align: center;
-    font-family: Lato;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: xx-large;
     font-style: normal;
     font-weight: 800;
@@ -140,12 +140,46 @@ justify-content: center;
 .section-description{
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 35px;
 }
+
 .picture-container{
     display: flex;
+    border-radius: 500px;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 10px;
+    margin-bottom: 10%;
+    
+}
+.picture1{
+    background: rgba(167, 33, 98, 0.15);
+    width: 350px;
+    height: 400px;
+    align-items: center;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    padding: 10px;
+
+}
+.picture2{
+    background:rgba(5, 151, 160, 0.15);
+    width: 350px;
+    height: 400px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    padding: 10px;
+}
+.picture3{
+    background: rgba(71, 125, 17, 0.15);
+    width: 350px;
+    height: 400px;  
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    padding: 10px;
 }
