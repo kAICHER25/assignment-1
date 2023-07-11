@@ -1,0 +1,108 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-color:rgba(229, 84, 115, 0.10);    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+
+}
+
+.paragraph {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: rgba(219, 20, 20, 0.692);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(226, 226, 226);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}      
+span{
+    color:rgba(219, 20, 20, 0.692);
+}
+.description,.head > h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: xx-large;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+justify-content: center;
+}
+.head > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.paragraph,{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.img{
+    justify-content: space-evenly;
+    align-items: center;
+    white: space 5px;
+    height: 100px;
+}
+.Subscribecontainer{
+    background-image: url("../style/back\ 9.png");
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    background-position: center;  
+    height: 250px;
+}
+.input{
+    height: 60px;
+    flex-shrink: 0;
+    padding-right: 50px;
+    border-radius: 8px;
+    background: #FFF;
+    width: 50%;
+    text-align: center;
+    border: none;
+   
+}
+.Subscribecontainer > p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(34, 32, 32, 0.706);
+    padding-top: 5px;
+    padding-bottom: 30px;
+    text-align: center;
+    justify-content: center;  
+}
