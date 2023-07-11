@@ -7,23 +7,41 @@
 .banner {
     display: flex;
     justify-content: space-around;
-    height: 100vh;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.10);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    width: 1920px;
+    height: 850px;
+}
+
+.text-title {
+    font-size: 80px;
+    padding-bottom: 32px;
+}
+
+.text-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400px;
+    padding-bottom: 32px;
+}
+
+.btn {
+    padding: 20px 43px;
+    background-color: #E55473;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.photo {
+    width: 635px;
+    height: 800px;
+    padding-right: 20px;
+    padding-top: 50px;
 }
 
 
-.title {
-    font-size: xx-large;
-    font-weight: bold;
-    padding-bottom: 10px;
-
-}
-
-.featurecontainer>h1 {
+/* .featurecontainer>h1 {
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -43,20 +61,12 @@
     line-height: normal;
     margin-bottom: 4%;
 
-}
-
+} */
+/* 
 .paragraph {
     padding-bottom: 10px;
 }
 
-.btn {
-    padding: 10px 20px;
-    background-color: rgba(219, 20, 20, 0.692);
-    color: white;
-    border: none;
-    border-radius: 5px;
-
-}
 
 .section {
     display: flex;
@@ -134,27 +144,22 @@ justify-content: center;
     padding-bottom: 30px;
     text-align: center;
     justify-content: center;
-}
-
+} */
 .section-title {
     color: #272727;
     text-align: center;
-    font-size: xx-large;
-    font-style: normal;
+    font-size: 40px;
     font-weight: 800;
-    line-height: normal;
-    padding: 40px;
-
+    padding-top: 178px;
+    padding-bottom: 24px;
 }
 
 .section-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-    margin-bottom: 35px;
+    padding-bottom: 48px;
 }
 
 .picture-container {
