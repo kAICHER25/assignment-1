@@ -225,20 +225,17 @@ span {
     background: #FFF;
 
 }
-
 .place {
     margin-top: 30px;
     padding-left: 400px;
     justify-content: space-around;
     align-items: center;
 }
-
 .flowershop-container {
     background-color: #111010;
     width: 1922px;
     height: 449px;
 }
-
 .flowershop-description {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
@@ -249,10 +246,26 @@ span {
     justify-content: space-around;
     margin-bottom: 32px;
 }
-
 .end-description {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+}
+.Flower-gardening{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 137px;
+    margin-bottom: 120px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+#garden-photo{
+    width: 400px;
+    height: 350px;
+}
+#garden-title{
+    padding-left: 300px;
+    padding-bottom: 100px;
 }
