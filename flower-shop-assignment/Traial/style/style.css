@@ -40,111 +40,49 @@
     padding-top: 50px;
 }
 
-
-/* .featurecontainer>h1 {
-    color: #272727;
-    text-align: center;
-    font-family: Lato;
-    font-size: xx-large;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    margin-top: 8%;
-    margin-bottom: 2%;
-}
-
-.featurecontainer>p {
-    color: #343333;
-    text-align: center;
-    font-family: Lato;
-    font-style: normal;
-    line-height: normal;
-    margin-bottom: 4%;
-
-} */
-/* 
-.paragraph {
-    padding-bottom: 10px;
-}
-
-
-.section {
+.hot-deal-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgba(229, 84, 115, 0.10);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    width: 1922px;
+    height: 620px;
+}
+
+.container-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-left: 423px;
+    padding-top: 230px;
 }
 
 span {
-    color: rgba(219, 20, 20, 0.692);
+    color: #E55473;
 }
 
-.description,
-.head>h1 {
-    font-size: xx-large;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.container-title-describe {
+    color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 395px;
 }
 
-.head>p {
-    padding-top: 10px;
-    padding-bottom: 20px;
-    justify-content: center;
-    text-align: center;
-}
-
-.paragraph,
-{
-font-size: x-large;
-padding-top: 20px;
-padding-bottom: 10px;
-text-align: center;
-justify-content: center;
-}
-
-.img {
-    justify-content: space-evenly;
+#btn-change {
     align-items: center;
-    white: space 5px;
-    height: 100px;
+    justify-content: space-around;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 32px;
+    margin-left:650px;
+}
+.deal-photo{
+    width: 318px;
+    height: 420px;
 }
 
-.Subscribecontainer {
-    background-image: url("../style/back\ 9.png");
-    width: 70%;
-    margin: auto;
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-position: center;
-    height: 250px;
-}
-
-.input {
-    height: 60px;
-    flex-shrink: 0;
-    padding-right: 50px;
-    border-radius: 8px;
-    background: #FFF;
-    width: 50%;
-    text-align: center;
-    border: none;
-
-}
-
-.Subscribecontainer>p {
-    color: rgba(34, 32, 32, 0.706);
-    padding-top: 5px;
-    padding-bottom: 30px;
-    text-align: center;
-    justify-content: center;
-} */
 .section-title {
     color: #272727;
     text-align: center;
